@@ -10,7 +10,7 @@ class Enclos {
     public function __construct($capaciteMax)
     {
         $this->animaux = [];
-        $this->capaciteMax = 5;
+        $this->capaciteMax = $capaciteMax;
     }
 
     public function ajouterAnimal($nouvelAnimal)
